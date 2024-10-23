@@ -26,14 +26,14 @@ To get the project up and running locally, follow these steps:
 1. Clone the repository:
 
    ```any terminal
-   git clone https://git.brainster.co/Gordan.Aleksandrovski-FE16/brainsterprojects_gordanaleksandrovski_fe16.git
+   git clone https://github.com/gokjialeksandrovski/MACHR_website.git
 
    ```
 
 2. Add the origin:
 
    ```any terminal
-   git remote add origin https://git.brainster.co/Gordan.Aleksandrovski-FE16/brainsterprojects_gordanaleksandrovski_fe16.git
+   git remote add origin https://github.com/gokjialeksandrovski/MACHR_website.git
    ```
 
 3. Navigate to the project directory:
@@ -43,6 +43,14 @@ To get the project up and running locally, follow these steps:
 
    ```any terminal
    npm install
+   ```
+
+   ```any terminal
+   npm uptade:all
+   ```
+
+   ```any terminal
+   npm uptade:dev
    ```
 
 ## Usage
