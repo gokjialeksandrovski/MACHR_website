@@ -1,0 +1,224 @@
+@import '../utilities/variables';
+
+.header {
+  box-shadow: 0px rem(30) rem(80) 0px rgba($color-midnight-blue, 0.2);
+  width: calc(100% + rem(320));
+  margin-left: rem(-160);
+  padding: rem(21) rem(160);
+  position: relative;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $font-family-roboto-condensed;
+  }
+
+  .logo {
+    flex: 0 0 auto;
+  }
+
+  .nav {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-family-roboto-condensed;
+
+    a {
+      color: $color-midnight-blue;
+      font-weight: 400;
+      margin: 0 rem(15);
+      text-decoration: none;
+      transition: color 0.3s ease;
+      font-size: rem(16);
+
+      &:hover {
+        color: $color-orange;
+      }
+    }
+
+    .nav-item {
+      position: relative;
+      font-family: $font-family-roboto-condensed;
+
+      a {
+        color: $color-midnight-blue;
+        font-weight: 400;
+        margin: 0 rem(15);
+        text-decoration: none;
+        transition: color 0.3s ease;
+        font-size: rem(16);
+
+        &:hover {
+          color: $color-orange;
+        }
+      }
+
+      &:hover .dropdown {
+        display: block;
+      }
+
+      .dropdown {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 4%;
+        background-color: $color-white;
+        box-shadow: 0 rem(2) rem(10) rgba(0, 0, 0, 0.1);
+        padding: rem(10) 0;
+        z-index: 10;
+
+        a {
+          display: block;
+          padding: rem(8) rem(10);
+          white-space: nowrap;
+          color: $color-midnight-blue;
+          font-weight: 400;
+          text-decoration: none;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: $color-link-water;
+          }
+        }
+      }
+    }
+
+    .search-bar {
+      margin-left: rem(30);
+      cursor: pointer;
+    }
+
+    .search-dropdown {
+      position: absolute;
+      margin-top: rem(5);
+      top: 100%;
+      right: 0;
+      padding: 0;
+      background-color: $color-white;
+      width: rem(250);
+      z-index: 10;
+      border-radius: rem(2000);
+      border: rem(1) solid $color-white;
+      display: none;
+
+      .search-input {
+        width: 100%;
+        padding: rem(10) rem(15);
+        font-size: rem(16);
+        border: none;
+        color: $color-gunmetal;
+        border-radius: rem(2000);
+        outline: none;
+
+        &::placeholder {
+          color: rgba($color-gunmetal, 0.3);
+        }
+      }
+    }
+
+    .search-item {
+      &:hover .search-dropdown,
+      &:focus-within .search-dropdown {
+        display: block;
+      }
+    }
+  }
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: rem(20);
+    font-family: $font-family-roboto-condensed;
+
+    .action-item {
+      position: relative;
+
+      img {
+        cursor: pointer;
+      }
+    }
+
+    .language {
+      color: $color-midnight-blue;
+      font-weight: 400;
+      margin-right: rem(20);
+      font-size: rem(18);
+
+      span {
+        cursor: pointer;
+
+        &:hover {
+          color: $color-orange;
+        }
+
+        &:first-of-type {
+          margin-right: rem(5);
+        }
+        &:last-of-type {
+          margin-left: rem(5);
+        }
+      }
+    }
+  }
+
+  .header-popup-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-popup {
+    font-family: $font-family-poppins;
+    background-color: $color-white-2;
+    border: rem(1) solid $color-white-2;
+    padding: rem(58) rem(46) rem(59) rem(45);
+    border-radius: rem(50);
+    box-shadow: 0 rem(30) rem(80) 0 #2f415833;
+    position: relative;
+    width: rem(1328);
+    height: rem(571);
+    display: flex;
+    align-items: center;
+  }
+
+  .header-close-btn {
+    position: absolute;
+    top: 6%;
+    right: -1%;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+
+  .header-popup-content {
+    display: flex;
+    align-items: center;
+    gap: rem(59);
+  }
+
+  .header-popup-image {
+    flex-shrink: 0;
+    width: rem(331);
+    height: rem(364);
+  }
+
+  .header-popup-text {
+    height: rem(344);
+    width: rem(847);
+    h2 {
+      margin: rem(20) 0 0 0;
+    }
+
+    p {
+      font-size: rem(24);
+      color: $color-neutral-gray;
+      line-height: rem(32);
+      font-weight: 600;
+    }
+
+    .header-popup-date {
+      margin-top: rem(114);
+    }
+  }
+}

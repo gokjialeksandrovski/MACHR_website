@@ -1,0 +1,59 @@
+@import '../utilities/variables';
+
+.conference-hero-banner {
+  position: relative;
+  z-index: 4;
+  width: calc(100% + rem(320));
+  margin-left: rem(-160);
+  margin-bottom: rem(33);
+
+  .conference-hero-banner-titles {
+    position: absolute;
+    top: 23.5%;
+    left: 12%;
+    font-family: $font-family-roboto;
+    color: $color-white;
+
+    h2,
+    h3 {
+      font-weight: 400;
+      font-size: rem(26);
+      line-height: rem(36);
+      letter-spacing: -2.2%;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: rem(64);
+      line-height: rem(86);
+    }
+  }
+
+  .conference-hero-banner-image {
+    margin: 0 auto;
+    border-radius: rem(500);
+    width: rem(1861);
+    height: rem(752);
+    z-index: 3;
+    padding: 0 rem(29) 0 rem(29);
+  }
+
+  .conference-dot-1 {
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    bottom: 0;
+    left: 0.1%;
+  }
+  .conference-dot-2 {
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    bottom: 0;
+    right: rem(28);
+  }
+}
+
+.single-event-hero-title-shadow {
+  text-shadow: rem(2) rem(4) rem(6) rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,79 @@
+@import '../utilities/variables';
+
+.conference-event-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: rem(80) 0 rem(190) 0;
+}
+
+.conference-event-text {
+  font-weight: 400;
+  width: rem(782);
+
+  .conference-event-title {
+    margin-bottom: rem(50);
+    width: 88%;
+  }
+
+  .conference-details {
+    display: flex;
+    gap: rem(24);
+    height: rem(24);
+    margin-bottom: rem(30);
+
+    .details-item {
+      display: flex;
+      align-items: center;
+      gap: rem(8);
+
+      span {
+        font-size: rem(14);
+        color: $color-dark;
+      }
+    }
+  }
+
+  .conference-event-ticket {
+    bottom: 0;
+    left: 0;
+    gap: rem(16);
+  }
+}
+
+.ticket-link {
+  margin-left: rem(15);
+}
+
+.conference-images {
+  width: rem(512);
+  height: rem(632);
+  position: relative;
+  z-index: 1;
+
+  .conference-circle-1 {
+    position: absolute;
+    bottom: -18%;
+    left: -22%;
+  }
+
+  .conference-circle-2 {
+    position: absolute;
+    top: -12.4%;
+    right: -21.9%;
+  }
+}
+
+.conference-black-dots {
+  position: absolute;
+  top: 4%;
+  left: -15%;
+  z-index: 1;
+}
+
+.conference-dots {
+  position: absolute;
+  right: -10.6%;
+  top: -23.6%;
+  z-index: 1;
+}

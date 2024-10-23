@@ -1,0 +1,106 @@
+@import '../utilities/variables';
+
+.home-about-banner {
+  width: calc(100% + rem(320));
+  margin-left: rem(-160);
+  position: relative;
+  margin-top: rem(300);
+  margin-bottom: rem(200);
+  padding-bottom: rem(126);
+}
+
+.home-about-container {
+  padding: 0 rem(160);
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-about-section-1 {
+  h2 {
+    margin: rem(40) 0 rem(50) 0;
+    width: rem(648);
+  }
+
+  p {
+    margin: 0 0 rem(40) 0;
+    font-size: rem(14);
+    line-height: rem(26);
+    font-weight: 400;
+    letter-spacing: rem(0.35);
+    color: $color-gunmetal;
+    width: rem(647);
+  }
+
+  .home-about-button {
+    padding: rem(17) rem(34);
+    width: rem(256);
+  }
+}
+
+.home-about-section-2 {
+  margin-top: rem(455.9);
+}
+
+.home-about-rectangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: rem(25);
+  position: absolute;
+
+  span {
+    font-weight: 500;
+    font-size: rem(14);
+    line-height: rem(22);
+    letter-spacing: rem(0.3);
+    color: $color-white;
+  }
+}
+
+.home-about-grey-rectangle {
+  top: 9.25%;
+  left: 28.5%;
+  background-color: $color-neutral-gray;
+  width: rem(312.07);
+  height: rem(125.36);
+  border: rem(1) solid $color-neutral-gray;
+  border-bottom-left-radius: 0;
+
+  span {
+    width: rem(214);
+  }
+}
+
+.home-about-orange-rectangle {
+  bottom: 40.5%;
+  right: 28.5%;
+  background-color: $color-orange;
+  width: rem(372);
+  height: rem(96);
+  border: rem(1) solid $color-orange;
+
+  span {
+    width: rem(306.06);
+  }
+}
+
+.home-about-buy-ticket {
+  bottom: 27.5%;
+  right: 28.5%;
+}
+
+.home-about-dots {
+  position: absolute;
+  z-index: -1;
+}
+
+.top-dots {
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.bottom-dots {
+  bottom: -8.35%;
+  left: -3.4%;
+}

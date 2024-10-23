@@ -1,0 +1,40 @@
+@import '../utilities/variables';
+
+.single-event-container {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  margin-bottom: rem(300);
+
+  .single-event-agenda {
+    width: 77%;
+    margin: 0;
+    z-index: 4;
+
+    .single-event-agenda-days {
+      width: 91%;
+
+      button {
+        cursor: auto !important;
+
+        &.active {
+          color: $color-gunmetal;
+        }
+      }
+    }
+
+    .single-event-session {
+      &:nth-of-type(5) {
+        width: 91%;
+      }
+    }
+  }
+
+  .single-event-agenda-dots {
+    position: absolute;
+    right: 0;
+    top: 8.2%;
+    z-index: -1;
+    height: rem(2085);
+  }
+}

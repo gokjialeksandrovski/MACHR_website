@@ -1,0 +1,93 @@
+@import '../utilities/variables';
+
+.mission-and-vision {
+  margin-top: rem(150);
+  position: relative;
+  font-family: $font-family-poppins;
+  margin-bottom: rem(322);
+
+  .mission-and-vision-section-style {
+    display: flex;
+    justify-content: space-between;
+    z-index: 4;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  h1,
+  h2 {
+    letter-spacing: rem(-0.5);
+  }
+
+  .mission-and-vision-second-title {
+    padding-top: rem(46);
+  }
+
+  p {
+    font-size: rem(16);
+    font-weight: 400;
+    line-height: rem(26);
+    letter-spacing: rem(0.35);
+  }
+
+  span {
+    color: $color-orange;
+  }
+
+  .mission-and-vision-section-1 {
+    .mission-and-vision-text-1 {
+      width: 65%;
+
+      h1 {
+        padding-top: rem(40);
+        font-size: rem(60);
+        font-weight: 600;
+        line-height: rem(72);
+      }
+
+      h2 {
+        width: 79%;
+      }
+
+      p {
+        &:first-of-type {
+          padding-top: rem(38);
+        }
+        &:nth-of-type(2) {
+          padding-top: rem(10);
+        }
+      }
+    }
+  }
+  .mission-and-vision-section-2 {
+    .mission-and-vision-text-2 {
+      width: 62%;
+
+      h2 {
+        padding-top: 0;
+        margin-top: rem(125);
+      }
+
+      p {
+        margin-bottom: 0;
+
+        &:not(:last-of-type) {
+          margin-bottom: rem(5);
+        }
+
+        &:first-of-type {
+          margin-top: rem(50);
+        }
+      }
+    }
+  }
+
+  .mission-and-vision-dots {
+    position: absolute;
+    bottom: -28%;
+    left: rem(-200);
+    z-index: -1;
+  }
+}

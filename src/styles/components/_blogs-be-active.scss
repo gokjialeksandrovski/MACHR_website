@@ -1,0 +1,40 @@
+@import '../utilities/variables';
+
+.blogs-be-active {
+  margin-top: rem(40);
+  position: relative;
+  margin-bottom: rem(200);
+
+  .blogs-be-active-container {
+    display: flex;
+    gap: rem(45);
+
+    position: relative;
+
+    .blogs-be-active-image {
+      border-radius: rem(500) rem(500) 0 0;
+      object-position: center;
+      z-index: 4;
+    }
+
+    .blogs-be-active-text {
+      z-index: 3;
+      .blogs-be-active-p {
+        margin: 0;
+        color: rgba($color-gunmetal, 0.7);
+        font-size: rem(14);
+        font-weight: 400;
+        line-height: rem(26);
+        letter-spacing: rem(0.5);
+      }
+    }
+  }
+
+  .blogs-be-active-dots {
+    position: absolute;
+    left: 20%;
+    transform: translateX(-20%);
+    bottom: -9.5%;
+    z-index: -1;
+  }
+}

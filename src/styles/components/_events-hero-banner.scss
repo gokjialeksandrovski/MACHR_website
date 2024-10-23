@@ -1,0 +1,45 @@
+@import '../utilities/variables';
+
+.events-hero-banner {
+  margin-bottom: rem(140);
+  .events-rectangle {
+    width: rem(775) !important;
+    height: rem(328) !important;
+    padding-top: rem(30);
+
+    h1,
+    span,
+    p {
+      margin-left: rem(-10);
+    }
+
+    h1 {
+      margin-top: rem(5);
+    }
+    span {
+      font-weight: 400;
+      font-size: rem(24);
+      line-height: rem(36);
+      letter-spacing: -2.2%;
+    }
+
+    p {
+      line-height: rem(36) !important;
+      width: rem(664);
+      margin-bottom: 0 !important;
+    }
+
+    .events-button {
+      position: absolute;
+      bottom: -13%;
+      right: 2%;
+      font-weight: 600;
+      padding: rem(17) rem(34) !important;
+    }
+  }
+
+  .events-dots {
+    bottom: -5.5%;
+    right: -1%;
+  }
+}

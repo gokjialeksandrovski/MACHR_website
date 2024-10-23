@@ -1,0 +1,48 @@
+@use 'sass:math';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/spartan');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+//functions
+@function rem($px, $base: 16) {
+  @return calc(#{$px} / #{$base} * 1rem);
+}
+
+//fonts
+$font-family-poppins: 'Poppins', sans-serif;
+$font-family-roboto: 'Roboto', sans-serif;
+$font-family-roboto-condensed: 'Roboto Condensed', sans-serif;
+$font-family-spartan: 'Spartan', sans-serif;
+$font-family-raleway: 'Raleway', sans-serif;
+
+//colors
+$color-white: #ffffff;
+$color-white-2: #fdfeff;
+$color-link-water: #eff3f8;
+$color-orange: #e87b22;
+$color-midnight-blue: #0f294a;
+$color-gunmetal: #21383e;
+$color-black: #191d23;
+$color-eerie-black: #1b1b1f;
+$color-dark: #000000;
+$color-neutral-gray: #7f7f7f;
+$color-neutral-gray-2: #4f4f4f;
+$color-grey: #828282;
+$color-mine-shaft: #4b4b4b;
+$color-light-gray: #d0d5dd;
+$color-light-gray-2: #bdbdbd;
+$color-saffron-yellow: #d2b830;
+$color-bronze-yellow: #ae8e51;
+$color-sandstorm-yellow: #d2b830;
+$color-light-tiffany-blue: #aae4e4;
+$color-persian-red: #d23030;
+
+//spacing
+
+//borders
+
+//shadows
+
+//animations
+
+//z-index

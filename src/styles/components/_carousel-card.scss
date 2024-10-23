@@ -1,0 +1,102 @@
+@import '../utilities/variables';
+
+.carousel {
+  background: url('/images/carousel/carousel-dots.png');
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  margin-top: rem(22);
+  padding-top: rem(62);
+  padding-bottom: rem(62);
+  margin-bottom: rem(70);
+  width: calc(100% + rem(320));
+  margin-left: rem(-160);
+  z-index: 1;
+
+  &.extra-margin-left {
+    background-position: -5%;
+  }
+  &.extra-margin-left-2 {
+    background-position: 11%;
+  }
+
+  .carousel-track {
+    display: flex;
+    gap: rem(64);
+    animation: scrollCarousel 12s linear infinite;
+    width: max-content;
+
+    @keyframes scrollCarousel {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(calc(-50%));
+      }
+    }
+  }
+}
+
+.carousel-card {
+  width: rem(300);
+  height: rem(246);
+  border-radius: 0 0 rem(200) rem(200);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-family: $font-family-roboto-condensed;
+
+  .carousel-content {
+    background-color: rgba($color-dark, 0.6);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: rem(16);
+
+    .carousel-titles {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .carousel-title,
+    .carousel-subtitle {
+      font-size: rem(20);
+      font-weight: 400;
+      line-height: rem(30);
+      color: $color-white;
+    }
+
+    .carousel-subtitle {
+      margin-top: rem(-12);
+    }
+
+    .carousel-date {
+      color: $color-white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .carousel-month {
+        font-size: rem(32);
+        font-weight: 400;
+      }
+
+      .carousel-day {
+        font-size: rem(48);
+        font-weight: 700;
+        border: rem(3) solid $color-white;
+        border-radius: rem(10);
+        width: rem(74);
+        height: rem(74);
+      }
+    }
+  }
+}

@@ -1,0 +1,231 @@
+@import '../utilities/variables';
+
+body {
+  font-family: $font-family-poppins;
+  background-color: $color-white;
+  padding: 0 160px;
+}
+
+button {
+  background-color: $color-orange;
+  color: $color-white;
+  font-family: $font-family-roboto-condensed;
+  font-weight: 500;
+  font-size: rem(16);
+  line-height: rem(36);
+  padding: rem(7) rem(54) rem(6) rem(54);
+  border: rem(3) solid $color-orange;
+  border-radius: rem(50);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $color-white;
+    color: $color-midnight-blue;
+    border: rem(3) solid $color-orange;
+  }
+}
+
+.image-left,
+.image-right {
+  position: relative;
+  z-index: 3;
+}
+
+.conference-title,
+.about-us-title {
+  color: $color-midnight-blue;
+  letter-spacing: rem(-0.5);
+}
+
+.conference-title {
+  font-weight: 600;
+  line-height: rem(72);
+  font-size: rem(60);
+}
+
+.conference-title-2 {
+  font-weight: 600;
+  font-size: rem(60);
+  letter-spacing: rem(-0.5);
+  line-height: rem(72);
+  color: $color-orange;
+}
+
+.conference-description {
+  font-size: rem(16);
+  line-height: rem(26);
+  color: $color-gunmetal;
+  letter-spacing: rem(0.35);
+}
+
+.conference-rectangle-link {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  box-shadow: 0px 30px 80px 0px #2f415833;
+  border-radius: rem(200);
+  width: rem(376);
+  height: rem(125);
+  background-color: $color-white;
+  cursor: pointer;
+
+  h3 {
+    font-weight: 600;
+    font-size: rem(20);
+    line-height: rem(13);
+    letter-spacing: rem(0.3);
+    color: $color-midnight-blue;
+  }
+
+  span {
+    font-weight: 300;
+    font-size: rem(15);
+    line-height: rem(12);
+    letter-spacing: rem(0.5);
+    color: rgba($color-gunmetal, 0.5);
+  }
+}
+
+.about-us-title {
+  font-weight: 500;
+  font-size: rem(50);
+  line-height: rem(62);
+}
+
+.single-event-title {
+  font-weight: 500;
+  font-size: rem(50);
+  line-height: rem(62);
+  letter-spacing: rem(-0.5);
+  color: $color-midnight-blue;
+  text-align: left !important;
+}
+
+.orange-circle-with-icon {
+  background-color: $color-orange;
+  width: rem(99);
+  height: rem(99);
+  border-radius: 50%;
+  margin-left: rem(15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.margin-top-150 {
+  margin-top: rem(150);
+}
+
+.filter-button {
+  padding: rem(5) rem(34.3);
+  text-align: center;
+  border-radius: rem(50);
+  border: none;
+  border-bottom: rem(1) solid $color-light-gray-2;
+  color: $color-gunmetal;
+  font-weight: 400;
+  font-size: rem(16);
+  letter-spacing: rem(0.35);
+  background: $color-white;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    border-color 0.3s,
+    color 0.3s;
+
+  &:hover {
+    border: none;
+    border-bottom: rem(1) solid $color-orange;
+  }
+
+  &.active {
+    background: $color-orange;
+    border: rem(1) solid $color-orange;
+    color: $color-white;
+  }
+}
+
+.search-container {
+  position: relative;
+
+  .search-input {
+    width: rem(512);
+    height: rem(64);
+    font-weight: 400;
+    border: rem(1) solid $color-white;
+    border-radius: rem(2000);
+    padding-left: rem(40);
+    font-size: rem(20);
+    letter-spacing: rem(0.35);
+    line-height: rem(26);
+    color: rgba($color-gunmetal, 0.3);
+    background-color: $color-white;
+    box-shadow: 0 rem(30) rem(80) 0 #2f415833;
+
+    &::placeholder {
+      color: rgba($color-gunmetal, 0.4);
+    }
+  }
+}
+
+.highlight-orange {
+  color: $color-orange !important;
+}
+
+.close-icon {
+  width: rem(14);
+  height: rem(14);
+  cursor: pointer;
+  margin-bottom: rem(30);
+  align-self: flex-end;
+}
+
+.custom-alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  max-width: rem(600);
+  background-color: $color-white;
+  border: rem(3) solid $color-orange;
+  border-radius: rem(10);
+  padding: rem(20);
+  box-shadow: 0 rem(4) rem(10) rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  button {
+    padding: 0;
+    width: rem(146);
+    height: rem(48);
+  }
+}
+
+.custom-alert-2 {
+  align-items: center !important;
+  font-size: rem(26);
+  width: 40%;
+
+  p {
+    margin: 0;
+    margin-bottom: rem(40);
+    color: $color-midnight-blue;
+    font-weight: 600;
+  }
+}
+
+.user-white-rectangle {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 rem(9) rem(80) 0 #2f41581f;
+  background-color: $color-white-2;
+  border-radius: rem(50);
+}
+
+.highlight-header {
+  background-color: $color-saffron-yellow;
+}

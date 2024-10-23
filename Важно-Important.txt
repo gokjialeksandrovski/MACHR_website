@@ -1,0 +1,3 @@
+Мора да го прочитате README.MD фајлот, главно за да не се испушти некоја страна.
+
+You must read the README.MD file, mainly to ensure that no pages are missed.

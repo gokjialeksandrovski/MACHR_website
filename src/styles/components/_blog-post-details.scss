@@ -1,0 +1,116 @@
+@use 'sass:math';
+@import '../utilities/variables';
+
+.blog-post-details {
+  display: flex;
+  flex-direction: column;
+  font-family: $font-family-poppins;
+  padding-right: rem(160);
+
+  .profile-section {
+    margin-bottom: rem(80);
+    .profile-info {
+      margin: rem(20) 0;
+      .profile-name {
+        display: flex;
+        gap: rem(10);
+        align-items: baseline;
+
+        h3 {
+          margin-bottom: 0;
+          color: $color-eerie-black;
+        }
+
+        a {
+          cursor: pointer;
+        }
+
+        .linkedIn-light-blue {
+          width: rem(16);
+          height: rem(16);
+        }
+      }
+    }
+  }
+
+  .content-section {
+    width: rem(360);
+    font-family: $font-family-poppins;
+
+    h4 {
+      margin-bottom: rem(19);
+      border-left: 3px solid $color-orange;
+      padding: rem(10) rem(20);
+    }
+
+    .content-list {
+      color: $color-gunmetal;
+      li {
+        &:not(:last-of-type) {
+          margin-bottom: rem(10);
+        }
+
+        padding: rem(10) 0 rem(10) rem(20);
+        font-size: rem(18);
+        line-height: rem(26);
+        letter-spacing: rem(0.35);
+      }
+    }
+  }
+
+  .content-title {
+    font-size: rem(22);
+    font-weight: 600;
+    line-height: rem(30);
+    color: $color-orange;
+
+    margin-bottom: rem(20);
+  }
+}
+
+.social-share-buttons {
+  background-color: $color-orange;
+  border-radius: rem(50);
+  width: rem(376);
+  height: rem(99);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $color-white;
+  font-family: $font-family-raleway;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 67%;
+    background: rgba($color-white, 0.1);
+    border-radius: 50%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 150%;
+    border-top-left-radius: 100%;
+    height: 250%;
+  }
+
+  span,
+  .social-icons {
+    margin-left: rem(40);
+  }
+
+  span {
+    margin-bottom: rem(15);
+    font-weight: 600;
+    font-size: rem(16);
+    line-height: rem(18.78);
+  }
+
+  .social-icons {
+    display: flex;
+    gap: rem(30);
+  }
+}

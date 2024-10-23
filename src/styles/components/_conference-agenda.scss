@@ -1,0 +1,120 @@
+@import '../utilities/variables';
+
+.conference-container {
+  width: calc(100% + rem(320));
+  position: relative;
+  margin: rem(40) 0 rem(650) rem(-160);
+
+  .conference-agenda {
+    margin: 0 auto;
+    width: 64.5%;
+
+    h2 {
+      text-align: center;
+    }
+
+    .conference-days {
+      display: flex;
+      gap: rem(48);
+      margin-bottom: rem(40);
+      border-bottom: rem(3) solid $color-orange;
+      margin-top: rem(100);
+
+      button {
+        color: $color-gunmetal;
+        padding: 0;
+        border-radius: 0;
+        font-weight: 400;
+        font-size: rem(32);
+        line-height: rem(62);
+        letter-spacing: rem(-0.5);
+        background: none;
+        border: none;
+        transition: color 0.3s ease;
+
+        &.active {
+          color: $color-orange;
+        }
+      }
+    }
+
+    .conference-sessions {
+      display: flex;
+      flex-direction: column;
+      gap: rem(20);
+      width: 100%;
+      text-align: left;
+      color: $color-gunmetal;
+
+      .session {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        &:not(:last-of-type) {
+          margin-bottom: rem(5);
+        }
+
+        &:nth-of-type(5) {
+          border-bottom: rem(1) solid $color-orange;
+          margin-bottom: rem(20);
+
+          .session-header {
+            margin-bottom: rem(20);
+          }
+        }
+
+        .session-header {
+          display: flex;
+          gap: rem(48);
+          margin-bottom: rem(4);
+
+          .session-time {
+            font-size: rem(32);
+            line-height: rem(62);
+            letter-spacing: rem(-0.5);
+            font-weight: 500;
+          }
+
+          .session-title {
+            font-size: rem(32);
+            line-height: rem(62);
+            letter-spacing: rem(-0.5);
+            font-weight: 700;
+            margin: 0;
+          }
+
+          .session-orange-indent {
+            color: $color-orange;
+            margin-right: rem(10);
+          }
+        }
+
+        .session-details {
+          display: flex;
+          flex-direction: column;
+          gap: rem(4);
+          list-style-type: disc;
+          font-size: rem(32);
+          line-height: rem(62);
+          letter-spacing: rem(-0.5);
+          font-weight: 500;
+          width: 100%;
+          margin-top: rem(-20);
+
+          .session-details-text,
+          .session-presenter,
+          .session-moderator,
+          .session-panelists {
+            margin-left: rem(175);
+          }
+        }
+      }
+    }
+  }
+  .conference-agenda-dots {
+    position: absolute;
+    bottom: -22%;
+    z-index: 0;
+  }
+}

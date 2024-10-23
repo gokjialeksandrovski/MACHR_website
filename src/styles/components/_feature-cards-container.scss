@@ -1,0 +1,44 @@
+@import '../utilities/variables';
+
+.feature-cards-container {
+  margin: rem(40) auto;
+  width: 100%;
+
+  .feature-cards-title {
+    margin-bottom: rem(100);
+    font-weight: 500;
+  }
+
+  .feature-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: rem(50);
+    justify-items: center;
+  }
+}
+
+.feature-cards-similar-events {
+  margin: rem(300) 0;
+}
+
+.feature-cards-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .feature-card-title-container-link {
+    margin-top: rem(18);
+    font-weight: 500;
+    font-size: rem(24);
+    line-height: rem(26);
+    letter-spacing: rem(0.35);
+    color: rgba($color-neutral-gray, 0.5);
+    text-decoration: underline;
+    text-underline-offset: rem(4);
+    cursor: pointer;
+  }
+}
+
+.similar-blogs-container {
+  margin-bottom: rem(300);
+}

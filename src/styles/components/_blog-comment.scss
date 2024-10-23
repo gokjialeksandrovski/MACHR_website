@@ -1,0 +1,112 @@
+@import '../utilities/variables';
+
+.blog-comment {
+  padding-top: rem(30);
+  .blog-comment-profile {
+    display: flex;
+    align-items: center;
+    gap: rem(10);
+    margin-bottom: rem(30);
+
+    .blog-comment-profile-img {
+      object-fit: cover;
+      object-position: center;
+      border-radius: rem(50);
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      width: rem(92);
+      height: rem(86);
+    }
+
+    .blog-comment-profile-name-and-time {
+      h4 {
+        margin: 0;
+        font-size: rem(20);
+        color: $color-midnight-blue;
+        line-height: rem(32);
+        font-weight: 600;
+      }
+
+      .comment-time {
+        font-size: rem(14);
+        color: rgba($color-gunmetal, 0.5);
+        line-height: rem(14);
+        font-weight: 400;
+        letter-spacing: rem(0.5);
+      }
+    }
+  }
+
+  .blog-comment-text {
+    margin: 0 0 rem(30) 0;
+    font-size: rem(18);
+    color: $color-gunmetal;
+    line-height: rem(26);
+    font-weight: 400;
+    letter-spacing: rem(0.35);
+  }
+
+  .blog-comment-reactions {
+    display: flex;
+    gap: rem(40);
+    margin-bottom: rem(30);
+
+    .blog-comment-reaction {
+      display: flex;
+      gap: rem(10);
+      cursor: pointer;
+
+      .thumbs-up-2 {
+        width: rem(30);
+        height: rem(28);
+      }
+
+      .comment-3 {
+        width: rem(29);
+        height: rem(27);
+        align-self: center;
+      }
+
+      span {
+        font-size: rem(24);
+        letter-spacing: rem(-0.5);
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.blog-comment-replies {
+  margin-left: rem(112.5);
+  width: rem(800);
+
+  .blog-comment-replies-see-more {
+    margin-bottom: rem(10);
+    color: rgba($color-gunmetal, 0.5);
+    letter-spacing: rem(0.5);
+    font-size: rem(14);
+    cursor: pointer;
+  }
+}
+
+.blog-comment-profile-2 {
+  img {
+    width: rem(69) !important;
+    height: rem(64.5) !important;
+  }
+  .profile-name-2 {
+    font-size: rem(16);
+  }
+}
+
+.alert-textarea {
+  width: 100%;
+  height: rem(100);
+  border: none;
+  border-radius: rem(10);
+  padding: rem(10);
+  margin-bottom: rem(30);
+  resize: none;
+  font-size: rem(16);
+  box-shadow: 0 rem(2) rem(5) rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,160 @@
+@import '../utilities/variables';
+
+.footer {
+  background-color: $color-white;
+  padding: rem(40) 0;
+  border-top: rem(1) solid rgba($color-gunmetal, 0.3);
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .footer-left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    .footer-logo {
+      margin-right: rem(20);
+
+      img {
+        width: rem(80);
+        height: auto;
+      }
+    }
+
+    .footer-info {
+      margin-top: rem(53);
+      display: flex;
+      justify-content: space-between;
+      width: rem(372);
+
+      h4 {
+        color: $color-midnight-blue;
+        margin-bottom: rem(8);
+        font-size: rem(16);
+      }
+
+      p {
+        font-family: $font-family-roboto;
+        color: $color-gunmetal;
+        margin: 0;
+
+        &:first-of-type {
+          margin-bottom: rem(8);
+        }
+      }
+    }
+  }
+
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: rem(62);
+
+    .footer-newsletter {
+      margin-bottom: rem(20);
+
+      h4 {
+        color: $color-black;
+        margin-bottom: rem(8);
+        font-size: rem(24);
+        line-height: rem(32);
+        font-weight: 600;
+        padding-bottom: rem(10);
+      }
+
+      .newsletter-input {
+        display: flex;
+        align-items: center;
+        border: rem(1) solid $color-light-gray;
+        border-radius: rem(50);
+        padding: rem(8) rem(16);
+        width: rem(784);
+        height: rem(80);
+        transition: all 0.3s ease;
+
+        &:hover {
+          border-color: darken($color-light-gray, 10%);
+          box-shadow: 0 0 rem(10) rgba($color-gunmetal, 0.2);
+        }
+
+        &:focus-within {
+          border-color: $color-gunmetal;
+          box-shadow: 0 0 rem(15) rgba($color-gunmetal, 0.3);
+
+          .checkmark-icon {
+            opacity: 1;
+            visibility: visible;
+            transform: scale(1);
+          }
+        }
+
+        input {
+          border: none;
+          background: none;
+          color: rgba($color-gunmetal, 0.6);
+          font-family: $font-family-roboto;
+          font-size: rem(14);
+          outline: none;
+          width: 100%;
+
+          &:focus {
+            color: $color-gunmetal;
+          }
+        }
+
+        .checkmark-icon {
+          cursor: pointer;
+          visibility: hidden;
+          transform: scale(0.8);
+          transition:
+            opacity 0.3s ease,
+            transform 0.3s ease,
+            visibility 0.3s ease;
+        }
+      }
+    }
+
+    .footer-social {
+      display: flex;
+      align-items: center;
+      gap: rem(22);
+      align-self: flex-end;
+
+      a {
+        img {
+          transition: transform 0.3s ease;
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+
+  .footer-popup-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .footer-popup {
+    background-color: $color-white-2;
+    padding: rem(40);
+    border-radius: rem(10);
+    box-shadow: 0 rem(30) rem(80) 0 #2f415833;
+
+    text-align: center;
+
+    p {
+      margin-bottom: rem(20);
+      font-size: rem(16);
+      font-weight: 600;
+    }
+  }
+}

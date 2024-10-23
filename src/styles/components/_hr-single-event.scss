@@ -1,0 +1,52 @@
+@import '../utilities/variables';
+
+.hr-single-event {
+  margin-top: rem(80);
+  width: calc(100% + rem(320));
+  margin-left: rem(-160);
+  padding: 0 rem(160);
+  margin-bottom: rem(300);
+  position: relative;
+
+  .hr-single-event-topic {
+    margin: rem(40) rem(0) rem(200) rem(0);
+  }
+
+  .hr-single-event-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    z-index: 4;
+
+    .hr-single-event-goal {
+      margin-top: rem(100);
+    }
+
+    h4 {
+      margin-bottom: rem(100);
+    }
+
+    .hr-single-event-text {
+      width: 41%;
+      p {
+        font-weight: 400;
+        letter-spacing: rem(0.35);
+        color: $color-gunmetal;
+        font-size: rem(16);
+        line-height: rem(26);
+      }
+    }
+
+    .hr-single-event-container-buy-ticket {
+      position: absolute;
+      bottom: 7%;
+      right: -12.5%;
+    }
+  }
+
+  .hr-single-event-dots {
+    bottom: -16.8%;
+    z-index: 0;
+  }
+}

@@ -1,0 +1,53 @@
+@import '../utilities/variables';
+
+.map-container {
+  position: relative;
+  width: rem(1347.3);
+  height: rem(676);
+  border-radius: rem(50);
+  overflow: hidden;
+  box-shadow: 0px rem(16) rem(80) 0px #3333331f;
+  margin: 0 auto;
+  margin-bottom: rem(300);
+}
+
+.leaflet-map {
+  height: 100%;
+  width: 100%;
+}
+
+.location-label {
+  position: absolute;
+  top: 16%;
+  right: 31%;
+  width: rem(240);
+  background-color: $color-white;
+  padding: rem(24);
+  border-radius: rem(8);
+  box-shadow: 0px rem(16) rem(80) 0px #3333331f;
+  z-index: 1000;
+
+  h4 {
+    font-weight: 600;
+    font-size: rem(20);
+    line-height: rem(32);
+    color: $color-dark;
+  }
+
+  p {
+    font-family: $font-family-spartan;
+    margin-top: rem(8);
+    font-weight: 400;
+    font-size: rem(12);
+    line-height: rem(18);
+    color: $color-neutral-gray-2;
+  }
+}
+
+.directions-button-container {
+  position: absolute;
+  bottom: rem(24);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}

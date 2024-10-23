@@ -1,0 +1,22 @@
+@import '../utilities/variables';
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  font-size: rem(20);
+  line-height: rem(30);
+  color: $color-gunmetal;
+  gap: rem(10);
+  font-weight: 500;
+  text-decoration: none;
+
+  .breadcrumb-link {
+    &:hover {
+      color: $color-midnight-blue;
+    }
+  }
+
+  .breadcrumb-current {
+    color: $color-orange;
+  }
+}

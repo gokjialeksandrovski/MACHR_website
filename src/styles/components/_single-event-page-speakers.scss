@@ -1,0 +1,49 @@
+@import '../utilities/variables';
+
+.single-event-page-speakers {
+  width: calc(100% + rem(320));
+  margin-left: rem(-160);
+  padding: 0 rem(160);
+  position: relative;
+  margin-bottom: rem(300);
+
+  .single-event-page-speakers-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 4;
+  }
+
+  .last-three-staff-list {
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 0;
+
+    .staff-card {
+      &:nth-of-type(2) {
+        .social-icons {
+          padding-top: rem(13);
+        }
+      }
+
+      &:first-of-type,
+      &:nth-of-type(2) {
+        .staff-image {
+          img {
+            object-position: top;
+          }
+        }
+      }
+
+      &:last-of-type {
+        .staff-info {
+          margin-bottom: rem(25);
+        }
+      }
+    }
+  }
+
+  .single-event-page-speakers-dots {
+    z-index: -1;
+    bottom: -8%;
+  }
+}

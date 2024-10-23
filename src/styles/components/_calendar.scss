@@ -1,0 +1,211 @@
+@import '../utilities/variables';
+
+.calendar-and-event-card {
+  margin-top: rem(80);
+  display: flex;
+  width: calc(100% + rem(320));
+  margin-left: rem(-160);
+  padding: 0 rem(160);
+  margin-bottom: rem(300);
+  justify-content: space-between;
+  position: relative;
+}
+
+.calendar-dots {
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  bottom: -37.1%;
+}
+
+.calendar-description {
+  width: 30%;
+  z-index: 3;
+  margin-top: rem(-10);
+
+  .calendar-description-text {
+    margin-top: rem(50);
+    width: 86%;
+  }
+}
+
+.event-card {
+  z-index: 4;
+  width: 58.055%;
+  background-color: $color-white;
+  display: flex;
+  box-shadow:
+    0 rem(4) rem(6) rem(-2) #10182808,
+    0 rem(12) rem(16) rem(-4) #10182814;
+  border: rem(1) solid rgba(26, 26, 26, 0.1);
+  border-radius: rem(20);
+  height: rem(552);
+
+  .event-card-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .event-details {
+    width: 50%;
+    padding: rem(20) rem(60) 0 rem(30);
+
+    .event-text-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+    }
+
+    .event-logo {
+      width: rem(60);
+      height: rem(79);
+      margin-bottom: rem(8);
+    }
+
+    .event-organizer,
+    .event-duration,
+    .event-description,
+    .read-more-link,
+    .placeholder-text {
+      font-weight: 400;
+      color: $color-gunmetal;
+    }
+
+    .event-organizer {
+      font-size: rem(16);
+      line-height: rem(26);
+      color: rgba($color-gunmetal, 0.6);
+      text-transform: uppercase;
+    }
+
+    .event-title {
+      font-size: rem(32);
+      font-weight: 700;
+      line-height: rem(86);
+      letter-spacing: -2.2%;
+      font-family: $font-family-roboto;
+      color: $color-midnight-blue;
+      margin-bottom: 0;
+    }
+
+    .event-duration {
+      display: flex;
+      align-items: center;
+      font-size: rem(16);
+      line-height: rem(26);
+      letter-spacing: rem(0.35);
+
+      .event-time-icon {
+        margin-right: rem(8);
+      }
+    }
+
+    .event-description {
+      font-size: rem(16);
+      letter-spacing: rem(0.3);
+      line-height: rem(26);
+      width: rem(348);
+      margin-bottom: rem(50);
+    }
+
+    .read-more-link {
+      font-size: rem(14);
+      color: $color-orange;
+      text-decoration: underline;
+      line-height: rem(21);
+      padding-bottom: rem(40);
+    }
+
+    .placeholder-text {
+      text-align: center;
+      color: $color-gunmetal;
+      font-size: rem(18);
+      margin-top: rem(40);
+    }
+  }
+
+  .calendar-section {
+    width: 50%;
+    padding: rem(20) rem(60) 0 rem(60);
+    border-left: rem(1) solid rgba(26, 26, 26, 0.1);
+
+    h3 {
+      margin-bottom: rem(32);
+      font-size: rem(24);
+      color: $color-midnight-blue;
+      font-weight: 600;
+      line-height: rem(32);
+    }
+
+    .calendar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: rem(18);
+      color: $color-midnight-blue;
+      width: 93%;
+      margin: 0 auto rem(32) auto;
+    }
+
+    .calendar-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: rem(16);
+
+      .calendar-day,
+      .calendar-date {
+        text-align: center;
+        font-weight: 400;
+      }
+
+      .calendar-day {
+        font-size: rem(14);
+        line-height: rem(12);
+        color: $color-midnight-blue;
+      }
+
+      .calendar-date {
+        font-size: rem(16);
+        line-height: rem(24);
+        padding: rem(8);
+        cursor: pointer;
+        border-radius: 50%;
+        color: rgba($color-gunmetal, 0.6);
+        background: none;
+        border: none;
+
+        &.event-available {
+          color: $color-orange;
+          display: inline-block;
+          position: relative;
+
+          &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 15%;
+            left: 50.5%;
+            transform: translateX(-50%);
+            width: rem(4);
+            height: rem(4);
+            background-color: $color-orange;
+            border-radius: 50%;
+          }
+        }
+
+        &.selected-date {
+          color: $color-orange;
+          background-color: rgba($color-orange, 0.3);
+        }
+      }
+    }
+
+    .buy-ticket-button {
+      padding: 0;
+      width: 45%;
+      margin-top: rem(32);
+    }
+  }
+}

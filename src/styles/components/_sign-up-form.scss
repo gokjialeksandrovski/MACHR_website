@@ -1,0 +1,158 @@
+@import '../utilities/variables';
+
+.signup-form {
+  width: 62.035%;
+  margin: rem(100) auto 0 auto;
+  padding: rem(32);
+  font-family: $font-family-poppins;
+
+  color: $color-midnight-blue;
+
+  .signup-title {
+    font-size: rem(50);
+    font-weight: 700;
+    line-height: rem(62);
+    margin-bottom: rem(80);
+    letter-spacing: rem(-0.5);
+    text-align: center;
+
+    .signup-or {
+      font-weight: 400;
+    }
+  }
+
+  .sign-up-border {
+    border: rem(2) solid #21383e33 !important;
+    border-radius: rem(50) !important;
+    padding: rem(23) 0;
+
+    width: 100% !important;
+  }
+
+  .sign-up-shadow {
+    box-shadow: 0 rem(4) rem(6) rem(-2) #10182808 !important;
+    box-shadow: 0 rem(12) rem(16) rem(-4) #10182814 !important;
+  }
+
+  .google-signin-btn {
+    display: flex;
+    align-items: center;
+    gap: rem(20);
+    justify-content: center;
+    background-color: $color-white;
+    font-weight: 600;
+    cursor: pointer;
+
+    img {
+      margin-right: rem(8);
+    }
+  }
+
+  .sign-up-font {
+    letter-spacing: rem(0.35) !important;
+    font-size: rem(20) !important;
+    line-height: rem(26) !important;
+    font-weight: 600;
+    color: $color-gunmetal !important;
+  }
+
+  .sign-up-font-2 {
+    letter-spacing: rem(-0.5) !important;
+    font-size: rem(32) !important;
+    line-height: rem(46) !important;
+    font-weight: 400;
+  }
+
+  .signup-divider {
+    text-align: center;
+    margin: rem(50) 0;
+    position: relative;
+
+    &::before,
+    &::after {
+      content: '';
+      width: 45%;
+      height: rem(1);
+      background-color: rgba($color-gunmetal, 0.2);
+      position: absolute;
+      top: 50%;
+    }
+
+    &::before {
+      left: 0;
+    }
+
+    &::after {
+      right: 0;
+    }
+  }
+
+  .label-email {
+    font-weight: 400;
+    margin-left: rem(10);
+  }
+
+  .signup-input {
+    margin: rem(10) rem(0) rem(40) rem(0);
+    font-size: rem(16);
+    padding-left: rem(40);
+    color: $color-gunmetal;
+    font-weight: 400;
+
+    &::placeholder {
+      color: rgba($color-gunmetal, 0.3);
+    }
+
+    &:focus {
+      outline: none;
+      border-color: $color-gunmetal;
+    }
+  }
+
+  .signup-email-btn {
+    width: 100%;
+    padding: rem(23) 0;
+    background-color: $color-orange;
+    color: $color-white;
+    border: rem(1) solid $color-orange;
+    border-radius: rem(50);
+    margin-bottom: rem(50);
+    font-weight: 600;
+    border: rem(3) solid $color-orange;
+
+    &:hover {
+      background-color: $color-white;
+      color: $color-midnight-blue;
+    }
+  }
+
+  .signup-terms {
+    margin-bottom: rem(40);
+    color: $color-gunmetal;
+    font-weight: 400;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    margin-bottom: rem(20);
+    gap: rem(10);
+
+    input[type='checkbox'] {
+      width: rem(16);
+      height: rem(16);
+      appearance: none;
+      border: rem(2) solid rgba($color-gunmetal, 0.3);
+      border-radius: rem(3);
+
+      &:checked {
+        background: $color-orange;
+      }
+    }
+  }
+}

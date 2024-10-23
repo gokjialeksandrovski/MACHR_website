@@ -1,0 +1,108 @@
+@import '../utilities/variables';
+
+.subscription-plans-container {
+  width: calc(100% + rem(320));
+  margin-left: rem(-160);
+  position: relative;
+  z-index: 5;
+  margin-bottom: rem(300);
+  margin-top: rem(500);
+
+  h2 {
+    text-align: center;
+    margin-bottom: rem(200);
+    z-index: 20;
+  }
+
+  .rectangles-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: rem(50);
+
+    .subscription-plans-rectangles {
+      display: flex;
+      gap: rem(200);
+      z-index: 4;
+      justify-content: center;
+
+      .subscription-plan-rectangle {
+        z-index: 3;
+        width: rem(512);
+        height: rem(895.66);
+        text-align: center;
+        box-shadow: 0px 30px 80px 0px #2f415833;
+        background-color: $color-white;
+        border-radius: rem(500);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+          margin: 0;
+          margin-bottom: rem(15);
+        }
+
+        h3 {
+          color: $color-midnight-blue;
+        }
+
+        button {
+          width: rem(297.09);
+          margin-top: rem(140);
+        }
+
+        .subscription-perks {
+          list-style-type: disc;
+          text-align: left;
+          width: rem(304);
+          height: rem(96);
+          margin-top: rem(75);
+          padding-left: rem(38);
+          margin-bottom: rem(55);
+
+          li {
+            font-weight: 600;
+            font-size: rem(24);
+            line-height: rem(32);
+          }
+        }
+      }
+    }
+
+    .subscription-plans-button {
+      padding: rem(17) rem(34);
+      border-radius: rem(50);
+      box-shadow: 0px 4px 6px -2px #10182808;
+      box-shadow: 0px 12px 16px -4px #10182814;
+      font-weight: 600;
+      font-size: rem(26);
+      letter-spacing: rem(-0.5);
+      line-height: rem(46);
+      z-index: 22;
+      width: rem(368);
+    }
+  }
+
+  .subscription-plans-dots-1,
+  .subscription-plans-dots-2,
+  .subscription-plans-dots-3 {
+    position: absolute;
+    z-index: 0;
+  }
+
+  .subscription-plans-dots-1 {
+    top: 0;
+    left: 3%;
+  }
+  .subscription-plans-dots-2 {
+    left: 35%;
+    top: 9%;
+  }
+  .subscription-plans-dots-3 {
+    top: 0;
+    right: 3%;
+  }
+}

@@ -1,0 +1,46 @@
+@import '../utilities/variables';
+
+.social-rectangle {
+  background: $color-gunmetal;
+  width: rem(673);
+  height: rem(120);
+  border-top-left-radius: rem(200);
+  border-bottom-left-radius: rem(200);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .social-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: rem(100);
+
+    h2 {
+      font-weight: 600;
+      font-size: rem(16);
+      line-height: rem(26);
+      letter-spacing: rem(0.35);
+      margin-top: rem(-12);
+    }
+
+    .social-icons-container {
+      display: flex;
+      gap: rem(20);
+      margin-bottom: rem(4);
+      align-items: center;
+
+      img {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.social-rectangle-events {
+  bottom: -7%;
+}

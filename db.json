@@ -1,0 +1,953 @@
+{
+  "carouselCards": [
+    {
+      "id": "1",
+      "backgroundImage": "/images/carousel/carousel-image-01.jpg",
+      "title": {
+        "mk": "HR викенд",
+        "en": "HR Weekend"
+      },
+      "subtitle": {
+        "mk": "Рамнотежа меѓу работа...",
+        "en": "Work-Life Balance"
+      },
+      "month": {
+        "mk": "Авг",
+        "en": "Aug"
+      },
+      "day": "09"
+    },
+    {
+      "id": "2",
+      "backgroundImage": "/images/carousel/carousel-image-02.jpg",
+      "title": {
+        "mk": "Годишна конференција",
+        "en": "Annual Conference"
+      },
+      "subtitle": {
+        "mk": "2024",
+        "en": "2024"
+      },
+      "month": {
+        "mk": "Дек",
+        "en": "Dec"
+      },
+      "day": "24"
+    },
+    {
+      "id": "3",
+      "backgroundImage": "/images/carousel/carousel-image-03.jpg",
+      "title": {
+        "mk": "HR кафе",
+        "en": "HR Coffee"
+      },
+      "subtitle": {
+        "mk": "Развој на Кариерата",
+        "en": "Career Development"
+      },
+      "month": {
+        "mk": "Јул",
+        "en": "Jul"
+      },
+      "day": "25"
+    },
+    {
+      "id": "4",
+      "backgroundImage": "/images/carousel/carousel-image-04.jpg",
+      "title": {
+        "mk": "HR викенд",
+        "en": "HR Weekend"
+      },
+      "subtitle": {
+        "mk": "Управување со стрес...",
+        "en": "Stress Management"
+      },
+      "month": {
+        "mk": "Авг",
+        "en": "Aug"
+      },
+      "day": "16"
+    },
+    {
+      "id": "5",
+      "backgroundImage": "/images/carousel/carousel-image-05.jpg",
+      "title": {
+        "mk": "HR кафе",
+        "en": "HR Coffee"
+      },
+      "subtitle": {
+        "mk": "Вештини за комуникација",
+        "en": "Communication Skills"
+      },
+      "month": {
+        "mk": "Сеп",
+        "en": "Sep"
+      },
+      "day": "03"
+    },
+    {
+      "id": "6",
+      "backgroundImage": "/images/carousel/carousel-image-06.jpg",
+      "title": {
+        "mk": "Вебинар",
+        "en": "Webinar"
+      },
+      "subtitle": {
+        "mk": "Законска усогласеност во HR",
+        "en": "HR Legal Compliance"
+      },
+      "month": {
+        "mk": "Сеп",
+        "en": "Sep"
+      },
+      "day": "18"
+    },
+    {
+      "id": "7",
+      "backgroundImage": "/images/carousel/carousel-image-07.jpg",
+      "title": {
+        "mk": "Конференција",
+        "en": "Conference"
+      },
+      "subtitle": {
+        "mk": "Иднината на Работата",
+        "en": "The Future of Work"
+      },
+      "month": {
+        "mk": "Окт",
+        "en": "Oct"
+      },
+      "day": "05"
+    }
+  ],
+  "hrWeekendJune": {
+    "backgroundImage": "/images/blogs-filters/blogs-filters-card-image.jpg",
+    "title": {
+      "mk": "Викенд",
+      "en": "Weekend"
+    },
+    "subtitle": {
+      "mk": "Организација во организации...",
+      "en": "Organization in Organizations..."
+    },
+    "month": {
+      "mk": "Јун",
+      "en": "Jun"
+    },
+    "day": "24"
+  },
+  "featureCards": [
+    {
+      "id": "1",
+      "image": "/images/latest-blogs/latest-blogs-image-01.jpg",
+      "title": {
+        "mk": "Техники за управување со стрес на работното место",
+        "en": "Stress Management Techniques in the Workplace"
+      },
+      "text": {
+        "mk": "Научите како да го намалите стресот и да го подобрите менталното здравје на вработените со практични техники.",
+        "en": "Learn how to reduce stress and improve employee mental health with practical techniques."
+      }
+    },
+    {
+      "id": "2",
+      "image": "/images/latest-blogs/latest-blogs-image-02.jpg",
+      "title": {
+        "mk": "Креирање на позитивна организациска култура",
+        "en": "Creating a Positive Organizational Culture"
+      },
+      "text": {
+        "mk": "Кои чекори можете да ги преземете за да креирате и одржите позитивна организациска култура која ќе ги мотивира и инспирира вработените.",
+        "en": "Steps you can take to create and maintain a positive organizational culture that motivates and inspires employees."
+      }
+    },
+    {
+      "id": "3",
+      "image": "/images/company-culture/company-culture-image-01.jpg",
+      "title": {
+        "mk": "Креирање на позитивна организациска култура",
+        "en": "Creating a Positive Organizational Culture"
+      },
+      "text": {
+        "mk": "Откријте ги ефективните стратегии за привлекување и задржување на врвни таленти во вашата компанија.",
+        "en": "Discover effective strategies for attracting and retaining top talent in your company."
+      }
+    },
+    {
+      "id": "4",
+      "image": "/images/company-culture/company-culture-image-03.jpg",
+      "title": {
+        "mk": "Важноста на обуката и развојот на вработените",
+        "en": "The Importance of Employee Training and Development"
+      },
+      "text": {
+        "mk": "Дознајте зошто континуираната обука и развој се клучни за успешноста на организацијата.",
+        "en": "Learn why continuous training and development are key to organizational success."
+      }
+    },
+    {
+      "id": "5",
+      "image": "/images/company-culture/company-culture-image-04.jpg",
+      "title": {
+        "mk": "Разноликост и инклузивност: клуч за успехот на организацијата",
+        "en": "Diversity and Inclusion: Key to Organizational Success"
+      },
+      "text": {
+        "mk": "Истражете како разноликоста и инклузивноста можат да ја подобрат организациската култура и перформансите.",
+        "en": "Explore how diversity and inclusion can improve organizational culture and performance."
+      }
+    },
+    {
+      "id": "6",
+      "image": "/images/company-culture-2/company-culture-2-image-01.jpg",
+      "title": {
+        "mk": "Како да го подобрите балансот меѓу работа и приватен живот",
+        "en": "How to Improve Work-Life Balance"
+      },
+      "text": {
+        "mk": "Научете кои политики и практики можат да помогнат во постигнување подобра рамнотежа меѓу работа и приватен живот.",
+        "en": "Learn what policies and practices can help achieve a better work-life balance."
+      }
+    },
+    {
+      "id": "7",
+      "image": "/images/company-culture-2/company-culture-2-image-02.jpg",
+      "title": {
+        "mk": "Ролјата на технологијата во модерното HR управување",
+        "en": "The Role of Technology in Modern HR Management"
+      },
+      "text": {
+        "mk": "Како новите технологии го менуваат начинот на кој HR професионалците ги извршуваат своите задачи и како да ги искористите за подобра ефективност.",
+        "en": "How new technologies are changing the way HR professionals do their tasks and how to leverage them for better efficiency."
+      }
+    },
+    {
+      "id": "8",
+      "image": "/images/company-culture-2/company-culture-2-image-04.jpg",
+      "title": {
+        "mk": "Иднината на работата: трендови и предизвици",
+        "en": "The Future of Work: Trends and Challenges"
+      },
+      "text": {
+        "mk": "Истражете ги најновите трендови и предизвици кои ја обликуваат иднината на работното место и како вашата организација може да се подготви за нив.",
+        "en": "Explore the latest trends and challenges shaping the future of the workplace and how your organization can prepare for them."
+      }
+    },
+    {
+      "id": "9",
+      "image": "/images/hr-coffee/hr-coffee-image-01.jpg",
+      "title": {
+        "mk": "HR CAFFE на тема: Развој на Кариерата",
+        "en": "HR CAFFE on the Topic: Career Development"
+      },
+      "text": {
+        "mk": "Споделете ги вашите амбиции и цели додека уживате во кафе, и добијте совети за развој на кариерата од HR експерти.",
+        "en": "Share your ambitions and goals while enjoying coffee, and get career development advice from HR experts."
+      }
+    },
+    {
+      "id": "10",
+      "image": "/images/hr-coffee/hr-coffee-image-02.png",
+      "title": {
+        "mk": "HR CAFFE на тема: вештини за комуникација",
+        "en": "HR CAFFE on the Topic: Communication Skills"
+      },
+      "text": {
+        "mk": "Дружете се со нас на попладневно кафе и научете ги новите техники за подобрување на вашите комуникациски вештини.",
+        "en": "Join us for an afternoon coffee and learn new techniques to improve your communication skills."
+      }
+    },
+    {
+      "id": "11",
+      "image": "/images/hr-coffee/hr-coffee-image-03.png",
+      "title": {
+        "mk": "HR CAFFE на тема: вештини за комуникација",
+        "en": "HR CAFFE on the Topic: Communication Skills"
+      },
+      "text": {
+        "mk": "Гостин-говорник на настанот ќе биде г-дин Благоја Ралповски, Претседател на Конфедерацијата на слободни синдикати на Македонија (КСС).",
+        "en": "The guest speaker will be Mr. Blagoya Ralpovski, President of the Confederation of Free Trade Unions of Macedonia (KSS)."
+      }
+    },
+    {
+      "id": "12",
+      "image": "/images/hr-coffee/hr-coffee-image-04.jpg",
+      "title": {
+        "mk": "HR CAFFE на тема: инклузивност...",
+        "en": "HR CAFFE on the Topic: Inclusivity..."
+      },
+      "text": {
+        "mk": "Придружете ни се на оваа кафе сесија каде ќе дискутираме за важноста на инклузивноста и разноликоста на работното место.",
+        "en": "Join us for this coffee session where we will discuss the importance of inclusivity and diversity in the workplace."
+      }
+    },
+    {
+      "id": "13",
+      "image": "/images/hr-weekend/hr-weekend-image-01.jpg",
+      "title": {
+        "mk": "Равнотежа меѓу работа и приватен живот",
+        "en": "Work-Life Balance"
+      },
+      "text": {
+        "mk": "Започнете го викендот со утринско кафе и дискусија за тоа како да постигнете подобра рамнотежа меѓу работа и приватен живот.",
+        "en": "Start the weekend with morning coffee and a discussion on how to achieve a better work-life balance."
+      }
+    },
+    {
+      "id": "14",
+      "image": "/images/hr-weekend/hr-weekend-image-02.jpg",
+      "title": {
+        "mk": "Ефективно лидерство и тимска работа",
+        "en": "Effective Leadership and Teamwork"
+      },
+      "text": {
+        "mk": "Споделете идеи и искуства за ефективно лидерство и тимска работа додека учите нешто ново од вашите колеги.",
+        "en": "Share ideas and experiences about effective leadership and teamwork while learning something new from your colleagues."
+      }
+    },
+    {
+      "id": "15",
+      "image": "/images/hr-weekend/hr-weekend-image-03.jpg",
+      "title": {
+        "mk": "Управување со стрес и ментално здравје",
+        "en": "Stress Management and Mental Health"
+      },
+      "text": {
+        "mk": "Научете техники за управување со стрес и одржување на менталното здравје на работа.",
+        "en": "Learn techniques for managing stress and maintaining mental health at work."
+      }
+    },
+    {
+      "id": "16",
+      "image": "/images/hr-weekend/hr-weekend-image-04.jpg",
+      "title": {
+        "mk": "Мотивација и инспирација на работното место",
+        "en": "Motivation and Inspiration in the Workplace"
+      },
+      "text": {
+        "mk": "Дружете се со колегите додека дискутираме како да се одржи високо ниво на мотивација и инспирација на работното место.",
+        "en": "Join colleagues as we discuss how to maintain high levels of motivation and inspiration in the workplace."
+      }
+    },
+    {
+      "id": "17",
+      "image": "/images/hr-webinar/hr-webinar-image-01.jpg",
+      "title": {
+        "mk": "Вебинар за рекрутирање и задржување на таленти",
+        "en": "Webinar on Talent Recruitment and Retention"
+      },
+      "text": {
+        "mk": "Дознајте ги најновите техники и стратегии за ефективно рекрутирање и задржување на врвните таленти.",
+        "en": "Learn the latest techniques and strategies for effective talent recruitment and retention."
+      }
+    },
+    {
+      "id": "18",
+      "image": "/images/hr-webinar/hr-webinar-image-02.jpg",
+      "title": {
+        "mk": "Вебинар за управување со перформанси",
+        "en": "Webinar on Performance Management"
+      },
+      "text": {
+        "mk": "Како да поставувате јасни цели, да вршите објективни оценки и да обезбедите контруктивен фидбек за подобрување.",
+        "en": "How to set clear goals, conduct objective evaluations, and provide constructive feedback for improvement."
+      }
+    },
+    {
+      "id": "19",
+      "image": "/images/hr-webinar/hr-webinar-image-03.jpg",
+      "title": {
+        "mk": "Вебинар за дигитална трансформација во HR",
+        "en": "Webinar on Digital Transformation in HR"
+      },
+      "text": {
+        "mk": "Како новите технологии го револуционизираат HR секторот. Овој вебинар ќе покрие теми како автоматизација, AI и анализа на податоци во HR.",
+        "en": "How new technologies are revolutionizing the HR sector. This webinar will cover topics such as automation, AI, and data analytics in HR."
+      }
+    },
+    {
+      "id": "20",
+      "image": "/images/hr-webinar/hr-webinar-image-04.jpg",
+      "title": {
+        "mk": "Вебинар за законска усогласеност во HR",
+        "en": "Webinar on Legal Compliance in HR"
+      },
+      "text": {
+        "mk": "Придружете ни се за да научите за најновите законски регулативи и како да обезбедите усогласеност со законите и прописите за човечки ресурси.",
+        "en": "Join us to learn about the latest legal regulations and how to ensure compliance with HR laws and regulations."
+      }
+    },
+    {
+      "id": "21",
+      "image": "/images/hr-conferences/hr-conferences-image-01.jpg",
+      "title": {
+        "mk": "Конференција за иднината на работата",
+        "en": "Conference on the Future of Work"
+      },
+      "text": {
+        "mk": "Трендовите кои ја обликуваат иднината на работното место. Придружите ни се на оваа конференција за да дознаете за новите модели на работа.",
+        "en": "Trends shaping the future of work. Join us at this conference to learn about new work models."
+      }
+    },
+    {
+      "id": "22",
+      "image": "/images/hr-conferences/hr-conferences-image-02.jpg",
+      "title": {
+        "mk": "Конференција за HR иновации",
+        "en": "Conference on HR Innovations"
+      },
+      "text": {
+        "mk": "Присуствувајте на оваа конференција каде што ќе ги откриете најновите иновации и најдобри практики во HR.",
+        "en": "Attend this conference where you'll discover the latest innovations and best practices in HR."
+      }
+    },
+    {
+      "id": "23",
+      "image": "/images/hr-conferences/hr-conferences-image-03.jpg",
+      "title": {
+        "mk": "Конференција за управување со таленти",
+        "en": "Conference on Talent Management"
+      },
+      "text": {
+        "mk": "Семинар каде што ќе научите како да ги идентификувате, развивате и задржите најдобрите таленти во вашата компанија.",
+        "en": "A seminar where you'll learn how to identify, develop, and retain the best talent in your company."
+      }
+    },
+    {
+      "id": "24",
+      "image": "/images/hr-conferences/hr-conferences-image-04.jpg",
+      "title": {
+        "mk": "Конференција за дигитална трансформација во HR",
+        "en": "Conference on Digital Transformation in HR"
+      },
+      "text": {
+        "mk": "Откријте како дигиталната трансформација го менува светот на HR. На оваа конференција, водечки експерти ќе ги презентираат најновите технологии.",
+        "en": "Discover how digital transformation is changing the world of HR. At this conference, leading experts will present the latest technologies."
+      }
+    },
+    {
+      "id": "25",
+      "image": "/images/popular-research/popular-research-image-01.jpg",
+      "title": {
+        "mk": "Истражување за HR компетенции",
+        "en": "Research on HR Competencies"
+      },
+      "text": {
+        "mk": "Ова истражување ја анализира потребата за клучни компетенции кај HR професионалците и како тие влијаат врз организацискиот успех.",
+        "en": "This research analyzes the need for key competencies among HR professionals and how they affect organizational success."
+      }
+    },
+    {
+      "id": "26",
+      "image": "/images/popular-research/popular-research-image-02.jpg",
+      "title": {
+        "mk": "Истражување за ангажираноста на вработените",
+        "en": "Research on Employee Engagement"
+      },
+      "text": {
+        "mk": "Ова истражување ја испитува ангажираноста на вработените и нејзиното влијание врз продуктивноста и задржувањето на кадар.",
+        "en": "This research examines employee engagement and its impact on productivity and retention."
+      }
+    },
+    {
+      "id": "27",
+      "image": "/images/popular-research/popular-research-image-03.jpg",
+      "title": {
+        "mk": "Истражување за инклузивност на работното место",
+        "en": "Research on Workplace Inclusivity"
+      },
+      "text": {
+        "mk": "Ова истражување ги анализира практиките за разноликост и инклузивност во компаниите и нивното влијание врз перформансите на организацијата.",
+        "en": "This research analyzes diversity and inclusivity practices in companies and their impact on organizational performance."
+      }
+    },
+    {
+      "id": "28",
+      "image": "/images/popular-research/popular-research-image-04.jpg",
+      "title": {
+        "mk": "Балансот меѓу работа и приватен живот",
+        "en": "Work-Life Balance"
+      },
+      "text": {
+        "mk": "Ова истражување го истражува влијанието на балансот меѓу работа и приватен живот врз благосостојбата и продуктивноста на вработените.",
+        "en": "This research explores the impact of work-life balance on employee well-being and productivity."
+      }
+    },
+    {
+      "id": "29",
+      "image": "/images/hr-coffee/hr-coffee-image-02.jpg",
+      "title": {
+        "mk": "HR CAFFE на тема: потребата од зајакнување...",
+        "en": "HR CAFFE on the Topic: The Need for Empowerment..."
+      },
+      "text": {
+        "mk": "Гостин-говорник на настанот ќе биде г-дин Благоја Ралповски, Претседател на Конфедерацијата на слободни синдикати на Македонија (КСС).",
+        "en": "The guest speaker will be Mr. Blagoya Ralpovski, President of the Confederation of Free Trade Unions of Macedonia (KSS)."
+      }
+    },
+    {
+      "id": "30",
+      "image": "/images/hr-weekend/hr-weekend-image-02.jpg",
+      "title": {
+        "mk": "Работилница за развој на вештини",
+        "en": "Skills Development Workshop"
+      },
+      "text": {
+        "mk": "Учествувајте во оваа интерактивна работилница каде што ќе развиете нови вештини и ќе ги подобрите постојните.",
+        "en": "Participate in this interactive workshop where you'll develop new skills and improve existing ones."
+      }
+    },
+    {
+      "id": "31",
+      "image": "/images/hr-conferences/hr-conferences-image-03.jpg",
+      "title": {
+        "mk": "Семинар за управување со таленти",
+        "en": "Talent Management Seminar"
+      },
+      "text": {
+        "mk": "Семинар каде што ќе научите како да ги идентификувате, развивате и задржите најдобрите таленти во вашата компанија.",
+        "en": "A seminar where you'll learn how to identify, develop, and retain the best talent in your company."
+      }
+    }
+  ],
+  "machrStaff": [
+    {
+      "id": "1",
+      "image": "/images/president-of-machr/president.png",
+      "name": "Дарко Петровски",
+      "workplace": "Претседател на МАЧР",
+      "social-media-1": "https://www.facebook.com/",
+      "social-media-2": "https://x.com/",
+      "social-media-3": "https://www.instagram.com/",
+      "social-media-4": "https://mk.linkedin.com/"
+    },
+    {
+      "id": "2",
+      "image": "/images/staff/staff-image-01.jpg",
+      "name": "Христина Лозаноска",
+      "workplace": "Вита Институт",
+      "social-media-1": "https://www.facebook.com/",
+      "social-media-2": "https://x.com/",
+      "social-media-3": "https://www.instagram.com/",
+      "social-media-4": "https://mk.linkedin.com/"
+    },
+    {
+      "id": "3",
+      "image": "/images/staff/staff-image-02.jpg",
+      "name": "Љупчо Ефтимов",
+      "workplace": "Економски факултет - Скопје, при УКИМ",
+      "social-media-1": "https://www.facebook.com/",
+      "social-media-2": "https://x.com/",
+      "social-media-3": "https://www.instagram.com/",
+      "social-media-4": "https://mk.linkedin.com/"
+    },
+    {
+      "id": "4",
+      "image": "/images/staff/staff-image-03.jpg",
+      "name": "Ана Салтирова Давидовски",
+      "workplace": "АМСМ",
+      "social-media-1": "https://www.facebook.com/",
+      "social-media-2": "https://x.com/",
+      "social-media-3": "https://www.instagram.com/",
+      "social-media-4": "https://mk.linkedin.com/"
+    },
+    {
+      "id": "5",
+      "image": "/images/staff/staff-image-04.jpg",
+      "name": "Ана Томовска Мисоска",
+      "workplace": "Универзитет Американ колеџ Скопје",
+      "social-media-1": "https://www.facebook.com/",
+      "social-media-2": "https://x.com/",
+      "social-media-3": "https://www.instagram.com/",
+      "social-media-4": "https://mk.linkedin.com/"
+    },
+    {
+      "id": "6",
+      "image": "/images/staff/staff-image-05.jpg",
+      "name": "Ивана Дојчиновска Стојановиќ",
+      "workplace": "НЛБ банка",
+      "social-media-1": "https://www.facebook.com/",
+      "social-media-2": "https://x.com/",
+      "social-media-3": "https://www.instagram.com/",
+      "social-media-4": "https://mk.linkedin.com/"
+    },
+    {
+      "id": "7",
+      "image": "/images/staff/staff-image-06.jpg",
+      "name": "Мелита Секуловска",
+      "workplace": "Економски факултет, Универзитет Љубљана",
+      "social-media-1": "https://www.facebook.com/",
+      "social-media-2": "https://x.com/",
+      "social-media-3": "https://www.instagram.com/",
+      "social-media-4": "https://mk.linkedin.com/"
+    },
+    {
+      "id": "8",
+      "image": "/images/staff/staff-image-07.jpg",
+      "name": "Олгица Спасевска",
+      "workplace": "Шпаркасе банка",
+      "social-media-1": "https://www.facebook.com/",
+      "social-media-2": "https://x.com/",
+      "social-media-3": "https://www.instagram.com/",
+      "social-media-4": "https://mk.linkedin.com/"
+    },
+    {
+      "id": "9",
+      "image": "/images/event-speakers/event-speakers-image-01.jpg",
+      "name": "Елица Перчинкова",
+      "workplace": "AEK",
+      "social-media-1": "https://www.facebook.com/",
+      "social-media-2": "https://x.com/",
+      "social-media-3": "https://www.instagram.com/",
+      "social-media-4": "https://mk.linkedin.com/"
+    },
+    {
+      "id": "10",
+      "image": "/images/event-speakers/event-speakers-image-02.jpg",
+      "name": "Зорица Поповска",
+      "workplace": "Сенсум коучинг и тренинг центар",
+      "social-media-1": "https://www.facebook.com/",
+      "social-media-2": "https://x.com/",
+      "social-media-3": "https://www.instagram.com/",
+      "social-media-4": "https://mk.linkedin.com/"
+    },
+    {
+      "id": "11",
+      "image": "/images/event-speakers/event-speakers-image-03.jpg",
+      "name": "Марија Петрушевска",
+      "workplace": "ТТК банка",
+      "social-media-1": "https://www.facebook.com/",
+      "social-media-2": "https://x.com/",
+      "social-media-3": "https://www.instagram.com/",
+      "social-media-4": "https://mk.linkedin.com/"
+    }
+  ],
+  "machrConferenceAgenda": [
+    {
+      "day": "Ден 1",
+      "sessions": [
+        {
+          "time": "10:00",
+          "title": "Регистрација и утринско кафе",
+          "details": "Присуствување и неформално запознавање меѓу учесниците."
+        },
+        {
+          "time": "10:30",
+          "title": "Вовед и отворање на настанот",
+          "details": "Поздравен говор од организаторите и кратко претставување на агендата."
+        },
+        {
+          "time": "11:00",
+          "title": "Презентација: Важноста на соработката меѓу HR одделот и синдикатот",
+          "presenter": "Оливија Оил",
+          "details": "Клучни точки: значењето на заедничката работа, придобивки и потенцијални проблеми."
+        },
+        {
+          "time": "11:45",
+          "title": "Панел дискусија: Искусувања и предизвици во праксата",
+          "moderator": "Маја Вазауски",
+          "panelists": "Претставници од HR и синдикати од различни индустрии."
+        },
+        {
+          "time": "12:30",
+          "title": "Пауза за ручек и неформални разговори"
+        },
+        {
+          "time": "13:00",
+          "title": "Работилница: Стратегии за подобрување на соработката",
+          "presenter": "Една Моде",
+          "details": "Практични совети и техники за подобрување на комуникацијата и соработката."
+        },
+        {
+          "time": "14:00",
+          "title": "Клучни алатки и методи за успешна соработка",
+          "presenter": "Џејмс Суливан",
+          "details": "Презентација на алатки и методи кои можат да се применат веднаш."
+        },
+        {
+          "time": "14:45",
+          "title": "Завршни зборови и заклучоци",
+          "details": "Сумирање на клучните поенти од настанот и дискусија за понатамошни чекори."
+        },
+        {
+          "time": "15:00",
+          "title": "Мрежно поврзување и неформално завршување на настанот",
+          "details": "Можност за неформални разговори и размена на контакти."
+        }
+      ],
+      "id": "7e08"
+    },
+    {
+      "day": "Ден 2",
+      "sessions": [
+        {
+          "time": "10:00",
+          "title": "Регистрација и утринско кафе",
+          "details": "Присуствување и неформално запознавање меѓу учесниците."
+        },
+        {
+          "time": "10:30",
+          "title": "Вовед и отворање на настанот",
+          "details": "Поздравен говор од организаторите и кратко претставување на агендата."
+        },
+        {
+          "time": "11:00",
+          "title": "Презентација: Важноста на соработката меѓу HR одделот и синдикатот",
+          "presenter": "Оливија Оил",
+          "details": "Клучни точки: значењето на заедничката работа, придобивки и потенцијални проблеми."
+        },
+        {
+          "time": "11:45",
+          "title": "Панел дискусија: Искусувања и предизвици во праксата",
+          "moderator": "Маја Вазауски",
+          "panelists": "Претставници од HR и синдикати од различни индустрии."
+        },
+        {
+          "time": "12:30",
+          "title": "Пауза за ручек и неформални разговори"
+        },
+        {
+          "time": "13:00",
+          "title": "Работилница: Стратегии за подобрување на соработката",
+          "presenter": "Една Моде",
+          "details": "Практични совети и техники за подобрување на комуникацијата и соработката."
+        },
+        {
+          "time": "14:00",
+          "title": "Клучни алатки и методи за успешна соработка",
+          "presenter": "Џејмс Суливан",
+          "details": "Презентација на алатки и методи кои можат да се применат веднаш."
+        },
+        {
+          "time": "14:45",
+          "title": "Завршни зборови и заклучоци",
+          "details": "Сумирање на клучните поенти од настанот и дискусија за понатамошни чекори."
+        },
+        {
+          "time": "15:00",
+          "title": "Мрежно поврзување и неформално завршување на настанот",
+          "details": "Можност за неформални разговори и размена на контакти."
+        }
+      ],
+      "id": "162d"
+    }
+  ],
+  "hrCoffeeConferenceAgenda": [
+    {
+      "day": "Четврток, 25 Јули",
+      "sessions": [
+        {
+          "time": "10:00",
+          "title": "Регистрација и утринско кафе",
+          "details": "Присуствување и неформално запознавање меѓу учесниците."
+        },
+        {
+          "time": "10:30",
+          "title": "Вовед и отворање на настанот",
+          "details": "Поздравен говор од организаторите и кратко претставување на агендата."
+        },
+        {
+          "time": "11:00",
+          "title": "Презентација: Важноста на соработката меѓу HR одделот и синдикатот",
+          "presenter": "Елица Перчинкова",
+          "details": "Клучни точки: значењето на заедничката работа, придобивки и потенцијални проблеми."
+        },
+        {
+          "time": "11:45",
+          "title": "Панел дискусија: Искуства и предизвици во праксата",
+          "moderator": "Ѓоко Вукановски",
+          "panelists": "Претставници од HR и синдикатот од различни индустрии."
+        },
+        {
+          "time": "12:30",
+          "title": "Пауза за ручек и неформални разговори"
+        },
+        {
+          "time": "13:00",
+          "title": "Работилница: Стратегии за подобрување на соработката",
+          "presenter": "Зорица Поповска",
+          "details": "Практични совети и техники за подобрување на комуникацијата и соработката."
+        },
+        {
+          "time": "14:00",
+          "title": "Клучни алатки и методи за успешна соработка",
+          "presenter": "Марија Петрушевска",
+          "details": "Презентација на алатки и методи кои можат да се применат веднаш."
+        },
+        {
+          "time": "14:45",
+          "title": "Завршни зборови и заклучоци",
+          "details": "Сумирање на клучните поенти од настанот и дискусија за понатамошни чекори."
+        },
+        {
+          "time": "15:00",
+          "title": "Мрежно поврзување и неформално завршување на настанот",
+          "details": "Можност за неформални разговори и размена на контакти."
+        }
+      ],
+      "id": "51c4"
+    }
+  ],
+  "theBlogPost": [
+    {
+      "id": "1",
+      "title": {
+        "mk": "Како до најдобар избор при процесот на регрутација",
+        "en": "How to Make the Best Choice During the Recruitment Process"
+      },
+      "content": {
+        "mk": "Процесот на регрутација е клучен за успехот на секоја организација. Селекцијата на вистинските кандидати може значително да влијае на продуктивноста, културата и развојот на компанијата. Следните чекори и совети ќе ви помогнат да направите најдобар избор при регрутацијата.",
+        "en": "The recruitment process is crucial for the success of any organization. Selecting the right candidates can significantly impact the company's productivity, culture, and development. The following steps and tips will help you make the best choice during recruitment."
+      },
+      "sections": [
+        {
+          "title": {
+            "mk": "Прецизно дефинирање на позицијата",
+            "en": "Accurately Defining the Position"
+          },
+          "content": {
+            "mk": "Првиот чекор кон успешна регрутација е јасно дефинирање на позицијата. Ова вклучува детално опишување на задачите, одговорностите и потребните квалификации. Кога огласот за работа е прецизен, ќе привлечете кандидати кои се вистински заинтересирани и квалификувани за позицијата.",
+            "en": "The first step towards successful recruitment is to clearly define the position. This includes providing a detailed description of the tasks, responsibilities, and required qualifications. When the job posting is precise, you will attract candidates who are genuinely interested and qualified for the position."
+          },
+          "tip": {
+            "mk": "Користете конкретни и мерливи критериуми при опишувањето на задачите и квалификациите за позицијата.",
+            "en": "Use specific and measurable criteria when describing the tasks and qualifications for the position."
+          }
+        },
+        {
+          "title": {
+            "mk": "Развивање на ефикасна стратегија за привлекување кандидати",
+            "en": "Developing an Effective Candidate Attraction Strategy"
+          },
+          "content": {
+            "mk": "Откако ќе го дефинирате профилот на идеалниот кандидат, потребно е да развиете стратегија за привлекување на такви кандидати. Ова може да вклучува користење на различни канали за регрутација, како што се огласни табли, социјални медиуми и професионални мрежи.",
+            "en": "Once you've defined the profile of the ideal candidate, you need to develop a strategy for attracting such candidates. This may include using various recruitment channels, such as job boards, social media, and professional networks."
+          },
+          "tip": {
+            "mk": "Користете различни платформи за регрутација за да допрете до поширока и разновидна база на кандидати.",
+            "en": "Use multiple recruitment platforms to reach a broader and more diverse pool of candidates."
+          }
+        },
+        {
+          "title": {
+            "mk": "Спроведување на структуриран процес на интервју",
+            "en": "Conducting a Structured Interview Process"
+          },
+          "content": {
+            "mk": "Структурираниот процес на интервју е од суштинско значење за објективна и фер селекција. Ова вклучува подготовка на прашања кои се релевантни за позицијата и кои ќе ви помогнат да ја процените способноста на кандидатите да ги исполнат барањата на работата.",
+            "en": "A structured interview process is essential for objective and fair selection. This includes preparing questions relevant to the position that will help you assess the candidates' ability to meet the job requirements."
+          },
+          "tip": {
+            "mk": "Секогаш користете ист сет на прашања за сите кандидати за да осигурате фер и доследен процес.",
+            "en": "Always use the same set of questions for all candidates to ensure a fair and consistent process."
+          }
+        },
+        {
+          "title": {
+            "mk": "Вклучување на релевантни тестови и проценки",
+            "en": "Incorporating Relevant Tests and Assessments"
+          },
+          "content": {
+            "mk": "Тестовите и проценките можат да бидат од голема помош при проценката на вештините и компетенциите на кандидатите. Ова може да вклучува тестови за технички вештини, психометриски тестови или проценки на личноста.",
+            "en": "Tests and assessments can be highly beneficial in evaluating candidates' skills and competencies. This may include technical skill tests, psychometric tests, or personality assessments."
+          },
+          "tip": {
+            "mk": "Одберете тестови кои се директно поврзани со клучните вештини потребни за позицијата.",
+            "en": "Choose tests that are directly related to the key skills required for the position."
+          }
+        },
+        {
+          "title": {
+            "mk": "Донесување на информирана одлука",
+            "en": "Making an Informed Decision"
+          },
+          "content": {
+            "mk": "Последниот чекор е донесувањето на информирана одлука. Ова подразбира анализа на сите информации собрани за време на процесот на регрутација, вклучувајќи го интервјуто, резултатите од тестовите и препораките.",
+            "en": "The final step is making an informed decision. This involves analyzing all the information gathered during the recruitment process, including the interview, test results, and references."
+          },
+          "tip": {
+            "mk": "Вклучете повеќе членови од тимот во процесот на донесување одлука за да добиете различни перспективи и да осигурате пообјективен избор.",
+            "en": "Involve multiple team members in the decision-making process to gain different perspectives and ensure a more objective choice."
+          }
+        },
+        {
+          "title": {
+            "mk": "Заклучок",
+            "en": "Conclusion"
+          },
+          "content": {
+            "mk": "Регрутацијата е комплексен процес кој бара внимателно планирање и имплементација. Преку прецизно дефинирање на позицијата, развивање на ефикасна стратегија за привлекување кандидати, спроведување на структуриран процес на интервју, вклучување на релевантни тестови и проценки и донесување на информирана одлука, можете да осигурате дека ќе го направите најдобриот избор за вашата организација.",
+            "en": "Recruitment is a complex process that requires careful planning and execution. By accurately defining the position, developing an effective candidate attraction strategy, conducting a structured interview process, incorporating relevant tests and assessments, and making an informed decision, you can ensure you make the best choice for your organization."
+          }
+        }
+      ]
+    }
+  ],
+  "theBlogPostDetails": {
+    "author": {
+      "mk": "Ѓоко Вукановски",
+      "en": "Gjoko Vukanovski"
+    },
+    "authorLinkedIn": "https://mk.linkedin.com/in/gjoko-vukanovski-04a8b142",
+    "contentSummary": {
+      "mk": [
+        "Прецизно дефинирање на позицијата",
+        "Развивање на ефикасна стратегија за привлекување кандидати",
+        "Спроведување на структуриран процес на интервју",
+        "Вклучување на релевантни тестови и проценки",
+        "Донесување на информирана одлука",
+        "Заклучок",
+        "Коментари"
+      ],
+      "en": [
+        "Accurately Defining the Position",
+        "Developing an Effective Candidate Attraction Strategy",
+        "Conducting a Structured Interview Process",
+        "Incorporating Relevant Tests and Assessments",
+        "Making an Informed Decision",
+        "Conclusion",
+        "Comments"
+      ]
+    }
+  },
+  "theBlogPostComments": [
+    {
+      "id": "1",
+      "profileImage": "/images/blog-comments/blog-comments-image-01.png",
+      "profileName": "Попај Морнарновски",
+      "timeUploaded": "Пред 10 минути",
+      "profileComment": "Регрутацијата е комплексен процес кој бара внимателно планирање и имплементација. Преку прецизно дефинирање на позицијата, развивање на ефикасна стратегија за привлекување кандидати, спроведување на структуриран процес на интервју, вклучување на релевантни тестови и проценки и донесување на информирана одлука, можете да осигурате дека ќе го направите најдобриот избор за вашата организација.",
+      "commentReplies": [
+        {
+          "id": 1,
+          "profileImage": "/images/blog-comments/blog-comments-image-02.png",
+          "profileName": "Фрањо",
+          "timeUploaded": "Пред 9 минути",
+          "profileComment": "Последниот чекор е донесувањето на информирана одлука. Ова подразбира анализа на сите информации собрани за време на процесот на регрутација, вклучувајќи го интервјуто, резултатите од тестовите и препораките."
+        },
+        {
+          "id": 2,
+          "profileImage": "/images/blog-comments/blog-comments-image-03.png",
+          "profileName": "Бобан",
+          "timeUploaded": "Пред 9 минути",
+          "profileComment": "Последниот чекор е донесувањето на информирана одлука. Ова подразбира анализа на сите информации собрани за време на процесот на регрутација, вклучувајќи го интервјуто, резултатите од тестовите и препораките."
+        },
+        {
+          "id": 3,
+          "profileImage": "/images/blog-comments/blog-comments-image-04.png",
+          "profileName": "Весна",
+          "timeUploaded": "Пред 9 минути",
+          "profileComment": "Последниот чекор е донесувањето на информирана одлука. Ова подразбира анализа на сите информации собрани за време на процесот на регрутација, вклучувајќи го интервјуто, резултатите од тестовите и препораките."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "profileImage": "/images/blog-comments/blog-comments-image-05.png",
+      "profileName": "Јовче Попов",
+      "timeUploaded": "Пред 10 минути",
+      "profileComment": "Регрутацијата е комплексен процес кој бара внимателно планирање и имплементација. Преку прецизно дефинирање на позицијата, развивање на ефикасна стратегија за привлекување кандидати, спроведување на структуриран процес на интервју, вклучување на релевантни тестови и проценки и донесување на информирана одлука, можете да осигурате дека ќе го направите најдобриот избор за вашата организација.",
+      "commentReplies": []
+    }
+  ]
+}

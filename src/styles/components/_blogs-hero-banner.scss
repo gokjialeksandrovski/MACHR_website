@@ -1,0 +1,13 @@
+@import '../utilities/variables';
+
+.blogs-hero-banner {
+  margin-bottom: rem(66);
+  .blogs-rectangle {
+    width: rem(942.5) !important;
+
+    .blogs-hero-orange {
+      color: $color-orange;
+      margin-left: 0;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import '../utilities/variables';
+
+.event-filters-container {
+  margin-bottom: rem(300);
+
+  .filter-buttons {
+    display: flex;
+    gap: rem(20);
+    margin-bottom: rem(40);
+  }
+
+  .event-filters-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: rem(200);
+  }
+}

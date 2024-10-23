@@ -1,0 +1,93 @@
+@import '../utilities/variables';
+
+.home-page-catchy-banner {
+  display: block;
+  padding-bottom: rem(1117);
+  margin-bottom: rem(200);
+}
+
+.catchy-banner-text-container,
+.catchy-banner-image-1,
+.catchy-banner-image-2,
+.catchy-banner-image-3,
+.catchy-banner-dots,
+.catchy-banner-mini-dots {
+  position: absolute;
+}
+
+.catchy-banner-text-container {
+  width: rem(816);
+  top: rem(26);
+  left: rem(793);
+  z-index: 3;
+
+  h2 {
+    width: 94%;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: rem(14);
+    letter-spacing: rem(0.5);
+    line-height: rem(26);
+    color: rgba($color-gunmetal, 0.7);
+    width: rem(496.31);
+
+    span {
+      font-weight: 600;
+    }
+  }
+}
+
+.catchy-banner-rectangle {
+  border-radius: rem(10);
+  width: rem(790.72);
+  height: rem(142.61);
+  z-index: 5;
+  top: rem(405);
+  left: rem(352.28);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 rem(70) 0 rem(100);
+
+  p {
+    font-weight: 500;
+    font-size: rem(23);
+    letter-spacing: rem(0.23);
+  }
+}
+
+.catchy-banner-image-1 {
+  left: rem(249);
+  top: 0;
+}
+
+.catchy-banner-image-2 {
+  left: rem(625);
+  top: rem(451);
+  z-index: 3 !important;
+}
+
+.catchy-banner-image-3 {
+  right: rem(103);
+  top: rem(320);
+}
+
+.catchy-button {
+  padding: rem(17) rem(34);
+  width: rem(241);
+}
+
+.catchy-banner-dots {
+  bottom: 0;
+  left: 0;
+  z-index: -5;
+}
+
+.catchy-banner-mini-dots {
+  top: rem(461);
+  left: rem(311);
+  z-index: 3;
+}

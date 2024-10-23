@@ -1,0 +1,43 @@
+@import '../utilities/variables';
+
+.follow-us-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.follow-us {
+  background-color: $color-gunmetal;
+  border-radius: rem(200) rem(0) rem(0) rem(200);
+  display: flex;
+  flex-direction: column;
+  width: rem(673);
+  height: rem(120);
+  padding: rem(18) 0 0 rem(110);
+
+  .follow-us-title {
+    font-weight: 700;
+    font-size: rem(16);
+    line-height: rem(26);
+    letter-spacing: rem(0.35);
+    color: $color-white;
+  }
+
+  .follow-us-icons {
+    display: flex;
+    gap: rem(30);
+
+    a {
+      display: inline-block;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+
+      img {
+        width: rem(28);
+        height: auto;
+      }
+    }
+  }
+}
