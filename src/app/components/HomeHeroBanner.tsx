@@ -12,6 +12,8 @@ const HomeHeroBanner: React.FC = () => {
   const { language } = useLanguage();
 
   useEffect(() => {
+    const currentBannerRef = bannerRef.current;
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -26,13 +28,13 @@ const HomeHeroBanner: React.FC = () => {
       }
     );
 
-    if (bannerRef.current) {
-      observer.observe(bannerRef.current);
+    if (currentBannerRef) {
+      observer.observe(currentBannerRef);
     }
 
     return () => {
-      if (bannerRef.current) {
-        observer.unobserve(bannerRef.current);
+      if (currentBannerRef) {
+        observer.unobserve(currentBannerRef);
       }
     };
   }, []);

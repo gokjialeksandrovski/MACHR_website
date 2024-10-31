@@ -1,4 +1,3 @@
-//conference page
 'use client';
 
 import React from 'react';
@@ -11,9 +10,11 @@ import SpecialGuests from '../components/SpecialGuests';
 import ConferenceAgenda from '../components/ConferenceAgenda';
 import MikeVazauski from '../components/MikeVazauski';
 import SubscriptionPlans from '../components/SubscriptionPlans';
-import Maps from '../components/Maps';
 import LatestBlogs from '../components/LatestBlogs';
 import ConferenceSimilarEvents from '../components/ConferenceSimilarEvents';
+import dynamic from 'next/dynamic';
+
+const Maps = dynamic(() => import('../components/Maps'), { ssr: false });
 
 const ConferencePage: React.FC = () => {
   return (

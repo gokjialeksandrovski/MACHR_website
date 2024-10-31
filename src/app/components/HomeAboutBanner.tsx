@@ -12,6 +12,8 @@ const HomeAboutBanner: React.FC = () => {
   const bannerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
+    const currentBannerRef = bannerRef.current;
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -26,13 +28,13 @@ const HomeAboutBanner: React.FC = () => {
       }
     );
 
-    if (bannerRef.current) {
-      observer.observe(bannerRef.current);
+    if (currentBannerRef) {
+      observer.observe(currentBannerRef);
     }
 
     return () => {
-      if (bannerRef.current) {
-        observer.unobserve(bannerRef.current);
+      if (currentBannerRef) {
+        observer.unobserve(currentBannerRef);
       }
     };
   }, []);

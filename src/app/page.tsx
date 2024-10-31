@@ -14,6 +14,8 @@ const Home: React.FC = () => {
   const sectionsRef = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {
+    const currentSections = sectionsRef.current;
+
     const options = {
       threshold: 0.3,
     };
@@ -23,18 +25,17 @@ const Home: React.FC = () => {
         const target = entry.target as HTMLElement;
         if (entry.isIntersecting) {
           target.style.visibility = 'visible';
-
           observer.unobserve(entry.target);
         }
       });
     }, options);
 
-    sectionsRef.current.forEach((section) => {
+    currentSections.forEach((section) => {
       if (section) observer.observe(section);
     });
 
     return () => {
-      sectionsRef.current.forEach((section) => {
+      currentSections.forEach((section) => {
         if (section) observer.unobserve(section);
       });
     };

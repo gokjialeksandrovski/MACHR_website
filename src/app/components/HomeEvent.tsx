@@ -11,6 +11,8 @@ const HomeEvent: React.FC = () => {
   const eventRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
+    const currentEventRef = eventRef.current;
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -25,13 +27,13 @@ const HomeEvent: React.FC = () => {
       }
     );
 
-    if (eventRef.current) {
-      observer.observe(eventRef.current);
+    if (currentEventRef) {
+      observer.observe(currentEventRef);
     }
 
     return () => {
-      if (eventRef.current) {
-        observer.unobserve(eventRef.current);
+      if (currentEventRef) {
+        observer.unobserve(currentEventRef);
       }
     };
   }, []);

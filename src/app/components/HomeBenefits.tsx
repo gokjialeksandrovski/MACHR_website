@@ -9,6 +9,8 @@ const HomeBenefits: React.FC = () => {
   const { language } = useLanguage();
 
   useEffect(() => {
+    const currentBenefitsRef = benefitsRef.current;
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -23,13 +25,13 @@ const HomeBenefits: React.FC = () => {
       }
     );
 
-    if (benefitsRef.current) {
-      observer.observe(benefitsRef.current);
+    if (currentBenefitsRef) {
+      observer.observe(currentBenefitsRef);
     }
 
     return () => {
-      if (benefitsRef.current) {
-        observer.unobserve(benefitsRef.current);
+      if (currentBenefitsRef) {
+        observer.unobserve(currentBenefitsRef);
       }
     };
   }, []);

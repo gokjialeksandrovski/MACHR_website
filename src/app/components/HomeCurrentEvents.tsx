@@ -17,6 +17,8 @@ const HomeCurrentEvents: React.FC = () => {
   };
 
   useEffect(() => {
+    const currentContainerRef = containerRef.current;
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -31,13 +33,13 @@ const HomeCurrentEvents: React.FC = () => {
       }
     );
 
-    if (containerRef.current) {
-      observer.observe(containerRef.current);
+    if (currentContainerRef) {
+      observer.observe(currentContainerRef);
     }
 
     return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current);
+      if (currentContainerRef) {
+        observer.unobserve(currentContainerRef);
       }
     };
   }, []);

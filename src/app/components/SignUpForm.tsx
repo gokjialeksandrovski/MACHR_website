@@ -15,7 +15,6 @@ const SignUpForm: React.FC = () => {
   const handleEmailSignIn = () => {
     if (email === 'mhra@primer.com') {
       sessionStorage.setItem('userEmail', email);
-
       router.push('/user-dashboard');
     } else {
       alert('Внесовте погрешен е-маил. Ве молиме пробајте повторно.');
@@ -63,7 +62,7 @@ const SignUpForm: React.FC = () => {
       </button>
 
       <p className="signup-terms sign-up-font">
-        Со кликнување на 'Продолжи со Google/Email', се согласувате со
+        Со кликнување на &quot;Продолжи со Google/Email&quot;, се согласувате со
         нашите&nbsp;
         <a href="#" onClick={handleGoogleSignIn}>
           Услови на користење
@@ -84,7 +83,7 @@ const SignUpForm: React.FC = () => {
         />
         <label className="signup-checkbox" htmlFor="membersCheckbox">
           Сакам да станам член на МАЧР
-        </label>{' '}
+        </label>
       </div>
 
       <div className="checkbox-container sign-up-font">
